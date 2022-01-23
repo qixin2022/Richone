@@ -695,6 +695,17 @@ pre {
 .offset-11 {
   margin-left: 91.66667%; }
 
+@media screen and(max-width: 480px) {
+    img {
+    border: 0;
+    }
+    }
+@media screen and(min-width: 1280px) {
+    img {
+    border: 1px solid red;
+    }
+}
+
 @media (min-width: 576px) {
   .col-sm {
     -ms-flex-preferred-size: 0;
