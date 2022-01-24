@@ -74,70 +74,7 @@
    </div> 
    <div class="text text-center"> 
     <img src="RICH ONEキャンペーン.png" width="800" height="1199" alt="image" />  
-    <table width="298" border="0" cellspacing="0" cellpadding="0"> 
-     <tbody>
-      <tr> 
-       <td height="470" valign="top" background="images/pick.jpg">
-        <table width="228" border="0" cellspacing="0" cellpadding="0" style="margin:63px 0 0 20px"> 
-         <tbody>
-          <tr> 
-           <td><script type="text/javascript">
-//图片简单切换调用语句 imgtransition({speed: 3000, animate: 1000}); 
-$.fn.imgtransition = function(o){
-	var defaults = {
-		speed : 5000,
-		animate : 1000
-	};
-	o = $.extend(defaults, o);
-
-	return this.each(function(){
-		var arr_e = $("li", this);
-		arr_e.css({position: "absolute"});
-		arr_e.parent().css({margin: "0", padding: "0", "list-style": "none", overflow: "hidden"});
-
-		function shownext(){
-			var active = arr_e.filter(".active").length ? arr_e.filter(".active") : arr_e.first();
-			var next =  active.next().length ? active.next() : arr_e.first();
-			active.css({"z-index": 9});
-			next.css({opacity: 0.0, "z-index": 10}).addClass('active').animate({opacity: 1.0}, o.animate, function(){
-				active.removeClass('active').css({"z-index": 8});
-			});
-		}
-
-		arr_e.first().css({"z-index": 9});
-		setInterval(function(){
-			shownext();
-		},o.speed);
-		
-	});
-};
-</script> 
-            <div class="pickuplist"> 
-             <ul style="margin: 0px; padding: 0px; list-style: none; overflow: hidden;"> 
-              <li style="position: absolute;"><a href="detail806.html"><img src="/photos/sites/5/2022/01/2022011810303781.jpg_366X565.jpg" width="258" height="387" /></a></li>
-              <li style="position: absolute;"><a href="detail790.html"><img src="/photos/sites/5/2021/11/2021111216562986.jpg_366X565.jpg" width="258" height="387" /></a></li>
-              <li style="position: absolute;"><a href="detail781.html"><img src="/photos/sites/5/2021/10/202110041717215.jpg_366X565.jpg" width="258" height="387" /></a></li>
-              <li style="position: absolute;"><a href="detail772.html"><img src="/photos/sites/5/2021/08/2021083012412423.jpg_366X565.jpg" width="258" height="387" /></a></li>
-              <li style="position: absolute;"><a href="detail765.html"><img src="/photos/sites/5/2021/07/2021072817063558.jpg_366X565.jpg" width="258" height="387" /></a></li>
-              <li style="position: absolute;"><a href="detail758.html"><img src="/photos/sites/5/2021/07/2021070817335654.jpg_366X565.jpg" width="258" height="387" /></a></li>
-              <li style="position: absolute;"><a href="detail754.html"><img src="/photos/sites/5/2021/06/2021062815385599.jpg_366X565.jpg" width="258" height="387" /></a></li>
-              <li style="position: absolute;"><a href="detail746.html"><img src="/photos/sites/5/2021/06/2021060717212051.jpg_366X565.jpg" width="258" height="387" /></a></li>
-              <li style="position: absolute;"><a href="detail738.html"><img src="/photos/sites/5/2021/05/2021050615551714.jpg_366X565.jpg" width="258" height="387" /></a></li> 
-             </ul> 
-            </div> <script type="text/javascript">
-$(document).ready(function(){
-	$('.pickuplist').imgtransition({
-		speed:3000,  //图片切换时间
-		animate:1000 //图片切换过渡时间
-	});
-});
-</script> </td> 
-          </tr> 
-         </tbody>
-        </table></td> 
-      </tr> 
-     </tbody>
-    </table> 
+    
     <table width="683" border="0" cellspacing="0" cellpadding="0"> 
      <tbody>
       <tr> 
