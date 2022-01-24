@@ -3,7 +3,7 @@
  <head> 
   <title>RichOne</title> 
   <meta charset="utf-8" /> 
-<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0, user-scalable=yes" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0, user-scalable=yes" /> 
   <link rel="stylesheet" href="open-iconic-bootstrap.min.css" /> 
   <link rel="stylesheet" href="animate.css" /> 
   <link rel="stylesheet" href="owl.carousel.min.css" /> 
@@ -73,54 +73,145 @@
     </div> 
    </div> 
    <div class="text text-center"> 
-    <img src="RICH ONEキャンペーン.png" width="800" height="1199" alt="image" /> 
-    
-    <section id="content3">
-			<div class="miniCon fwari">
-				<h2 class="content_title2"><span class="title">NEWS</span><br>ニュース</h2>
-			</div>
-			<section class="fadein scrollin">
-				<div class="content">
-					<div id="news_wrap">
-												<div class="news_area">
-							<div class="news_day">
-								2022年1月18日							</div>
-							<div class="news">
-								<p>特に凝っている部分がありましたら<br>
-遠慮なくお申し付けください、お客様が満足するように<br>
-たっぷりと癒しのマッサージで腰や肩やふくらはぎを<br>
-リフレッシュさせて頂きます</p>
-							</div>
-						</div>
-												<div class="news_area">
-							<div class="news_day">
-								2022年1月11日							</div>
-							<div class="news">
-								<p>おはようございます<br>
-本日も人気セラピストでお待ちしております<br>
-滑らかに流れるようなマッサージは<br>
-ついつい時間を忘れてしまいそうです<br>
-上質な時間をお過ごしください</p>
-							</div>
-						</div>
-												<div class="news_area">
-							<div class="news_day">
-								2022年1月4日							</div>
-							<div class="news">
-								<p>おはようございます<br>
-厳選されたセラピストによる心を込めた<br>
-極上のマッサージは大好評いただいております<br>
-施術にご希望がありましたら、<br>
-セラピストへリクエストお願いします<br>
-日々向上できるように勤めております</p>
-							</div>
-						</div>
-																	</div>
-				</div>
-			</section>
-    </section>
-    
-    
+    <img src="RICH ONEキャンペーン.png" width="800" height="1199" alt="image" />  
+    <table width="298" border="0" cellspacing="0" cellpadding="0"> 
+     <tbody>
+      <tr> 
+       <td height="470" valign="top" background="images/pick.jpg">
+        <table width="228" border="0" cellspacing="0" cellpadding="0" style="margin:63px 0 0 20px"> 
+         <tbody>
+          <tr> 
+           <td><script type="text/javascript">
+//图片简单切换调用语句 imgtransition({speed: 3000, animate: 1000}); 
+$.fn.imgtransition = function(o){
+	var defaults = {
+		speed : 5000,
+		animate : 1000
+	};
+	o = $.extend(defaults, o);
+
+	return this.each(function(){
+		var arr_e = $("li", this);
+		arr_e.css({position: "absolute"});
+		arr_e.parent().css({margin: "0", padding: "0", "list-style": "none", overflow: "hidden"});
+
+		function shownext(){
+			var active = arr_e.filter(".active").length ? arr_e.filter(".active") : arr_e.first();
+			var next =  active.next().length ? active.next() : arr_e.first();
+			active.css({"z-index": 9});
+			next.css({opacity: 0.0, "z-index": 10}).addClass('active').animate({opacity: 1.0}, o.animate, function(){
+				active.removeClass('active').css({"z-index": 8});
+			});
+		}
+
+		arr_e.first().css({"z-index": 9});
+		setInterval(function(){
+			shownext();
+		},o.speed);
+		
+	});
+};
+</script> 
+            <div class="pickuplist"> 
+             <ul style="margin: 0px; padding: 0px; list-style: none; overflow: hidden;"> 
+              <li style="position: absolute;"><a href="detail806.html"><img src="/photos/sites/5/2022/01/2022011810303781.jpg_366X565.jpg" width="258" height="387" /></a></li>
+              <li style="position: absolute;"><a href="detail790.html"><img src="/photos/sites/5/2021/11/2021111216562986.jpg_366X565.jpg" width="258" height="387" /></a></li>
+              <li style="position: absolute;"><a href="detail781.html"><img src="/photos/sites/5/2021/10/202110041717215.jpg_366X565.jpg" width="258" height="387" /></a></li>
+              <li style="position: absolute;"><a href="detail772.html"><img src="/photos/sites/5/2021/08/2021083012412423.jpg_366X565.jpg" width="258" height="387" /></a></li>
+              <li style="position: absolute;"><a href="detail765.html"><img src="/photos/sites/5/2021/07/2021072817063558.jpg_366X565.jpg" width="258" height="387" /></a></li>
+              <li style="position: absolute;"><a href="detail758.html"><img src="/photos/sites/5/2021/07/2021070817335654.jpg_366X565.jpg" width="258" height="387" /></a></li>
+              <li style="position: absolute;"><a href="detail754.html"><img src="/photos/sites/5/2021/06/2021062815385599.jpg_366X565.jpg" width="258" height="387" /></a></li>
+              <li style="position: absolute;"><a href="detail746.html"><img src="/photos/sites/5/2021/06/2021060717212051.jpg_366X565.jpg" width="258" height="387" /></a></li>
+              <li style="position: absolute;"><a href="detail738.html"><img src="/photos/sites/5/2021/05/2021050615551714.jpg_366X565.jpg" width="258" height="387" /></a></li> 
+             </ul> 
+            </div> <script type="text/javascript">
+$(document).ready(function(){
+	$('.pickuplist').imgtransition({
+		speed:3000,  //图片切换时间
+		animate:1000 //图片切换过渡时间
+	});
+});
+</script> </td> 
+          </tr> 
+         </tbody>
+        </table></td> 
+      </tr> 
+     </tbody>
+    </table> 
+    <table width="683" border="0" cellspacing="0" cellpadding="0"> 
+     <tbody>
+      <tr> 
+       <td height="470" valign="top" background="images/news_bj.png">
+        <div id="news" class="gundongtiao"> 
+         <table width="620" border="0" cellspacing="0" cellpadding="0"> 
+          <tbody>
+           <tr> 
+            <td class="news2">&middot; 2022年01月22日</td> 
+           </tr> 
+           <tr> 
+            <td class="news3">貴方の心の糧となれるよう頑張ります！！<br />今日も多数の人気嬢が出勤してきております！早めのご予約でないとお待ち頂く場合もございますので、ご了承下さい。お気に入りの子を見つけて通っていただけると嬉しいです。手によりをかけてご奉仕させて致します。 </td> 
+           </tr> 
+           <tr> 
+            <td height="12" class="news1"></td> 
+           </tr> 
+          </tbody>
+         </table>
+         <table width="620" border="0" cellspacing="0" cellpadding="0"> 
+          <tbody>
+           <tr> 
+            <td class="news2">&middot; 2022年01月18日</td> 
+           </tr> 
+           <tr> 
+            <td class="news3">新人あやちゃんが入店しました<br /><span>とても愛嬌があり、清楚で清潔感のある笑顔が素敵なセラピストが入店です。一緒にいるだけで、たのしく、清らかになります！容姿もルックス・スタイルともにご満足いただけるかと思います。たのしいひと時をお過ごしいただけることでしょう。<br /> <img src="/photos/sites/5/2022/01/2022011810303781.jpg_366X565.jpg" alt="" width="200" height="300" class="alignnone wp-image-805" /><br /> </span></td> 
+           </tr> 
+           <tr> 
+            <td height="12" class="news1"></td> 
+           </tr> 
+          </tbody>
+         </table>
+         <table width="620" border="0" cellspacing="0" cellpadding="0"> 
+          <tbody>
+           <tr> 
+            <td class="news2">&middot; 2022年01月16日</td> 
+           </tr> 
+           <tr> 
+            <td class="news3">スタッフ全員あなたのお越しを心より待ちしております<br />ストレス社会で生きていくには、ホッとできる場所が必要です。そんな場所をお探しの貴方、、、当店で癒やされてみませんか？マッサージの技術や気配りだけでなく、あらゆる面で癒しのひとときを実感できると思いますよ。スッキリして、明日は頑張りましょう！</td> 
+           </tr> 
+           <tr> 
+            <td height="12" class="news1"></td> 
+           </tr> 
+          </tbody>
+         </table>
+         <table width="620" border="0" cellspacing="0" cellpadding="0"> 
+          <tbody>
+           <tr> 
+            <td class="news2">&middot; 2022年01月10日</td> 
+           </tr> 
+           <tr> 
+            <td class="news3">１人１人のお体を合った施術を行います。<br />お身体のお悩みは、お気軽にご相談ください。あなたの症状を改善する方法がきっと見つかると思います!! 今までに体験したことのないような充実した気持ちよさに全身が包まれながら楽になる整体です。</td> 
+           </tr> 
+           <tr> 
+            <td height="12" class="news1"></td> 
+           </tr> 
+          </tbody>
+         </table>
+         <table width="620" border="0" cellspacing="0" cellpadding="0"> 
+          <tbody>
+           <tr> 
+            <td class="news2">&middot; 2022年01月04日</td> 
+           </tr> 
+           <tr> 
+            <td class="news3">たまには息抜きも♪<br />少しでも仕事のことを忘れるのは、とても良いことです。<br /> <br /> 皆さん、本日もお仕事ご苦労様です。<br /> いつも眉間にしわを寄せている方、表情が硬い方、是非、当店のマッサージで癒されに来てください。<br /> <br /> 私どもに任せていただければ、みんな笑顔にしてみせます。</td> 
+           </tr> 
+           <tr> 
+            <td height="12" class="news1"></td> 
+           </tr> 
+          </tbody>
+         </table> 
+        </div></td> 
+      </tr> 
+     </tbody>
+    </table>   
     <section class="ftco-section"> 
      <div class="container"> 
       <div class="row justify-content-center"> 
