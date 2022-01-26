@@ -164,7 +164,7 @@ pre {
 figure {
   margin: 0 0 1rem; }
 
-img { height: auto; width: auto\9; width:100%; }
+img{max-width:100%;}  
 
 svg {
   overflow: hidden;
