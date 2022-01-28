@@ -37,7 +37,7 @@ hr {
 #pc_header_wrap {
     width: 100%;
     height: auto;
-    background:url("../../bg.jpg");
+    background-image:url("bg.jpg"),
 }
 #sp_header_wrap {
     display: none;
@@ -128,7 +128,7 @@ index
 #content1 {
     width: 100%;
     height: auto;
-    background:url("../../bg.jpg");
+    background-image:url("bg.jpg"),
     padding: 30px 0 30px 0;
     padding: 0;
 }
@@ -174,7 +174,7 @@ index
 #content2 {
     width: 100%;
     height: auto;
-    background:url("../../bg.jpg");
+    background-image:url("bg.jpg"),
     padding: 25px 0 30px 0;
 }
 /*news*/
@@ -182,7 +182,7 @@ index
 #content3 {
     width: 100%;
     height: auto;
-    background:url("../../bg.jpg");
+    background-image:url("bg.jpg"),
     padding: 20px 0 16px 0;
 }
 #news_wrap {
@@ -214,7 +214,7 @@ index
 #content4 {
     width: 100%;
     height: auto;
-    background: url("../../bg.jpg");
+   background-image:url("bg.jpg"),
     padding: 20px 0 16px 0;
 }
 #newface_wrap {
@@ -270,7 +270,7 @@ index
 #content5 {
     width: 100%;
     height: auto;
-    background: url("../../bg.jpg");
+   background-image:url("bg.jpg"),
 
     padding: 20px 0 20px 0;
 }
@@ -330,7 +330,7 @@ index
 #content6 {
     width: 100%;
     height: auto;
-	    background: url("../../bg.jpg");
+	   background-image:url("bg.jpg"),
     padding: 20px 0 50px 0;
 }
 /*access*/
@@ -338,7 +338,7 @@ index
 #content7 {
     width: 100%;
     height: auto;
-   	background:url("../../bg.jpg");
+   	background-image:url("bg.jpg"),
     padding: 20px 0 16px 0;
 }
 .text_table {
@@ -381,7 +381,7 @@ index
 #content9 {
     width: 100%;
     height: auto;
-	background: url("../../bg.jpg");
+	background-image:url("bg.jpg"),
     padding: 20px 0 28px 0;
 }
 .footer nav {
@@ -417,7 +417,7 @@ index
 #content10 {
     width: 100%;
     height: auto;
-	background: url("../../bg.jpg");
+	background-image:url("bg.jpg"),
     padding: 0;
 }
 .pc_logo {
@@ -429,7 +429,7 @@ index
 #content11 {
     width: 100%;
     height: auto;
-	background: url("../../bg.jpg");
+	background-image:url("bg.jpg"),
     padding: 16px 0 60px 0;
 }
 .content_linkbanner {
@@ -936,7 +936,7 @@ max 1024px ipad landscape
     #pc_header_wrap {
         width: 100%;
         height: auto;
-        background:url("../../bg.jpg");
+        background-image:url("bg.jpg"),
         
     }
     #sp_header_wrap {
@@ -1021,7 +1021,7 @@ max 1024px ipad landscape
     #content1 {
         width: 100%;
         height: auto;
-   		background:url("../../bg.jpg");
+   		background-image:url("bg.jpg"),
         padding: 0;
     }
     /*event banner*/
@@ -1029,7 +1029,7 @@ max 1024px ipad landscape
     #content2 {
         width: 100%;
         height: auto;
-    	background:url("../../bg.jpg");
+    	background-image:url("bg.jpg"),
         padding: 25px 15px 30px 15px;
     }
     /*news*/
@@ -1037,7 +1037,7 @@ max 1024px ipad landscape
     #content3 {
         width: 100%;
         height: auto;
-        background:url("../../bg.jpg");
+        background-image:url("bg.jpg"),
         padding: 20px 0 15px 0;
     }
     #news_wrap {
@@ -1069,7 +1069,7 @@ max 1024px ipad landscape
     #content4 {
         width: 100%;
         height: auto;
-        background: url("../../bg.jpg");
+       background-image:url("bg.jpg"),
         padding: 20px 0 10px 0;
     }
     #newface_wrap {
@@ -1105,7 +1105,7 @@ max 1024px ipad landscape
     #content5 {
         width: 100%;
         height: auto;
-    background: url("../../bg.jpg");
+   background-image:url("bg.jpg"),
         padding: 20px 0 20px 0;
     }
     #cast_wrap {
@@ -1153,7 +1153,7 @@ max 1024px ipad landscape
     #content6 {
         width: 100%;
         height: auto;
-	    background: url("../../bg.jpg");
+	   background-image:url("bg.jpg"),
         padding: 20px 0 50px 0;
     }
     /*access*/
@@ -1161,7 +1161,7 @@ max 1024px ipad landscape
     #content7 {
         width: 100%;
         height: auto;
-   		background:url("../../bg.jpg");
+   		background-image:url("bg.jpg"),
         padding: 20px 0 15px 0;
     }
     .text_table {
@@ -1202,7 +1202,7 @@ max 1024px ipad landscape
     #content9 {
         width: 100%;
         height: auto;
-		background: url("../../bg.jpg");
+		background-image:url("bg.jpg"),
         padding: 20px 0 10px 0;
     }
     .footer nav {
@@ -1226,7 +1226,7 @@ max 1024px ipad landscape
     #content10 {
         width: 100%;
         height: auto;
-		background: url("../../bg.jpg");
+		background-image:url("bg.jpg"),
         padding: 0;
     }
     .pc_logo {
@@ -1238,7 +1238,7 @@ max 1024px ipad landscape
     #content11 {
         width: 100%;
         height: auto;
-		background: url("../../bg.jpg");
+		background-image:url("bg.jpg"),
         padding: 15px 0 60px 0;
     }
     .content_linkbanner {
@@ -1406,7 +1406,7 @@ max 1024px
     #content1 {
         width: 100%;
         height: auto;
-   		background:url("../../bg.jpg");
+   		background-image:url("bg.jpg"),
 
         padding: 0;
     }
@@ -1415,7 +1415,7 @@ max 1024px
     #content2 {
         width: 100%;
         height: auto;
-    	background:url("../../bg.jpg");
+    	background-image:url("bg.jpg"),
         padding: 25px 20px 30px 20px;
     }
     /*news*/
@@ -1423,7 +1423,7 @@ max 1024px
     #content3 {
         width: 100%;
         height: auto;
-        background:url("../../bg.jpg");
+        background-image:url("bg.jpg"),
         padding: 20px 20px 15px 20px;
     }
     #news_wrap {
@@ -1454,7 +1454,7 @@ max 1024px
     #content4 {
         width: 100%;
         height: auto;
-        background: url("../../bg.jpg");
+       background-image:url("bg.jpg"),
         padding: 20px 20px 15px 20px;
     }
     #newface_wrap {
@@ -1488,7 +1488,7 @@ max 1024px
     #content5 {
         width: 100%;
         height: auto;
-    background: url("../../bg.jpg");
+   background-image:url("bg.jpg"),
         padding: 20px 20px 20px 20px;
     }
     #cast_wrap {
@@ -1549,7 +1549,7 @@ max 1024px
     #content6 {
         width: 100%;
         height: auto;
-	    background: url("../../bg.jpg");
+	   background-image:url("bg.jpg"),
         padding: 20px 20px 50px 20px;
     }
     /*access*/
@@ -1557,7 +1557,7 @@ max 1024px
     #content7 {
         width: 100%;
         height: auto;
-   		background:url("../../bg.jpg");
+   		background-image:url("bg.jpg"),
         padding: 20px 20px 15px 20px;
     }
     .text_table {
@@ -1596,7 +1596,7 @@ max 1024px
     #content10 {
         width: 100%;
         height: auto;
-		background: url("../../bg.jpg");
+		background-image:url("bg.jpg"),
         padding: 20px 0;
     }
     .pc_logo {
@@ -1713,7 +1713,7 @@ Smart Phone 5.5inch
         display: flex;
         align-items: center;
         justify-content: flex-start;
-        background:url("../../bg.jpg");
+        background-image:url("bg.jpg"),
     }
     .header_img {
         width: 20%;
@@ -1797,7 +1797,7 @@ Smart Phone 5.5inch
     #content1 {
         width: 100%;
         height: auto;
-   		background:url("../../bg.jpg");
+   		background-image:url("bg.jpg"),
 
         padding: 0;
     }
@@ -1806,7 +1806,7 @@ Smart Phone 5.5inch
     #content2 {
         width: 100%;
         height: auto;
-    	background:url("../../bg.jpg");
+    	background-image:url("bg.jpg"),
         padding: 20px 10px 26px 10px;
     }
     /*news*/
@@ -1814,7 +1814,7 @@ Smart Phone 5.5inch
     #content3 {
         width: 100%;
         height: auto;
-        background:url("../../bg.jpg");
+        background-image:url("bg.jpg"),
         padding: 20px 10px 15px 10px;
     }
     #news_wrap {
@@ -1866,7 +1866,7 @@ Smart Phone 5.5inch
     #content4 {
         width: 100%;
         height: auto;
-        background: url("../../bg.jpg");
+       background-image:url("bg.jpg"),
         padding: 20px 20px 15px 20px;
     }
     #newface_wrap {
@@ -1900,7 +1900,7 @@ Smart Phone 5.5inch
     #content5 {
         width: 100%;
         height: auto;
-    background: url("../../bg.jpg");
+   background-image:url("bg.jpg"),
         padding: 20px 10px 20px 10px;
     }
     #cast_wrap {
@@ -1961,7 +1961,7 @@ Smart Phone 5.5inch
     #content6 {
         width: 100%;
         height: auto;
-	    background: url("../../bg.jpg");
+	   background-image:url("bg.jpg"),
         padding: 20px 10px 50px 10px;
     }
     /*access*/
@@ -1969,7 +1969,7 @@ Smart Phone 5.5inch
     #content7 {
         width: 100%;
         height: auto;
-   		background:url("../../bg.jpg");
+   		background-image:url("bg.jpg"),
         padding: 20px 10px 40px 10px;
     }
     /*footer menu*/
@@ -1978,7 +1978,7 @@ Smart Phone 5.5inch
         display: block;
         width: 100%;
         height: auto;
-		background: url("../../bg.jpg");
+		background-image:url("bg.jpg"),
         padding: 10px 0 20px 0;
     }
     .text_table_menu {
@@ -2046,10 +2046,10 @@ Smart Phone 5.5inch
         display: none;
     }
     #content10 {
-		background: url("../../bg.jpg");
+		background-image:url("bg.jpg"),
     }
     #content11 {
-		background: url("../../bg.jpg");
+		background-image:url("bg.jpg"),
         padding: 10px 0 60px 0;
     }
     .pc_logo {
@@ -2435,7 +2435,7 @@ landscape
         display: flex;
         align-items: center;
         justify-content: flex-start;
-        background:url("../../bg.jpg");
+        background-image:url("bg.jpg"),
     }
     .header_img {
         width: 21%;
@@ -2516,7 +2516,7 @@ landscape
     #content1 {
         width: 100%;
         height: auto;
-   		background:url("../../bg.jpg");
+   		background-image:url("bg.jpg"),
 
         padding: 0;
     }
@@ -2525,7 +2525,7 @@ landscape
     #content2 {
         width: 100%;
         height: auto;
-    	background:url("../../bg.jpg");
+    	background-image:url("bg.jpg"),
         padding: 20px 0 26px 0;
     }
     /*news*/
@@ -2533,7 +2533,7 @@ landscape
     #content3 {
         width: 100%;
         height: auto;
-        background:url("../../bg.jpg");
+        background-image:url("bg.jpg"),
         padding: 20px 0 15px 0;
     }
     #news_wrap {
@@ -2587,7 +2587,7 @@ landscape
     #content4 {
         width: 100%;
         height: auto;
-        background: url("../../bg.jpg");
+       background-image:url("bg.jpg"),
         padding: 20px 5px 15px 5px;
     }
     #newface_wrap {
@@ -2621,7 +2621,7 @@ landscape
     #content5 {
         width: 100%;
         height: auto;
-    background: url("../../bg.jpg");
+   background-image:url("bg.jpg"),
         padding: 20px 5px 20px 5px;
     }
     #cast_wrap {
@@ -2668,7 +2668,7 @@ landscape
     #content6 {
         width: 100%;
         height: auto;
-	    background: url("../../bg.jpg");
+	   background-image:url("bg.jpg"),
         padding: 20px 0 50px 0;
     }
     /*access*/
@@ -2676,7 +2676,7 @@ landscape
     #content7 {
         width: 100%;
         height: auto;
-   		background:url("../../bg.jpg");
+   		background-image:url("bg.jpg"),
         padding: 20px 0 40px 0;
     }
     /*footer menu*/
@@ -2685,7 +2685,7 @@ landscape
         display: block;
         width: 100%;
         height: auto;
-		background: url("../../bg.jpg");
+		background-image:url("bg.jpg"),
         padding: 15px 0 10px 0;
     }
     .sp_logo {
@@ -2835,7 +2835,7 @@ Smart Phone 5.5inch 640px
         display: flex;
         align-items: center;
         justify-content: flex-start;
-        background:url("../../bg.jpg");
+        background-image:url("bg.jpg"),
     }
     .header_img {
         width: 23%;
@@ -2913,7 +2913,7 @@ Smart Phone 5.5inch 640px
     #content1 {
         width: 100%;
         height: auto;
-   		background:url("../../bg.jpg");
+   		background-image:url("bg.jpg"),
 
         padding: 0;
     }
@@ -2922,7 +2922,7 @@ Smart Phone 5.5inch 640px
     #content2 {
         width: 100%;
         height: auto;
-    	background:url("../../bg.jpg");
+    	background-image:url("bg.jpg"),
         padding: 20px 0 26px 0;
     }
     /*news*/
@@ -2930,7 +2930,7 @@ Smart Phone 5.5inch 640px
     #content3 {
         width: 100%;
         height: auto;
-        background:url("../../bg.jpg");
+        background-image:url("bg.jpg"),
         padding: 20px 10px 15px 10px;
     }
     #news_wrap {
@@ -2984,7 +2984,7 @@ Smart Phone 5.5inch 640px
     #content4 {
         width: 100%;
         height: auto;
-        background: url("../../bg.jpg");
+       background-image:url("bg.jpg"),
         padding: 20px 10px 15px 10px;
     }
     #newface_wrap {
@@ -3018,7 +3018,7 @@ Smart Phone 5.5inch 640px
     #content5 {
         width: 100%;
         height: auto;
-    background: url("../../bg.jpg");
+   background-image:url("bg.jpg"),
         padding: 20px 10px 20px 10px;
     }
     #cast_wrap {
@@ -3213,7 +3213,7 @@ Smart Phone 5.5inch 480px
         display: flex;
         align-items: center;
         justify-content: flex-start;
-        background:url("../../bg.jpg");
+        background-image:url("bg.jpg"),
     }
     .header_img {
         width: 30%;
@@ -3291,7 +3291,7 @@ Smart Phone 5.5inch 480px
     #content1 {
         width: 100%;
         height: auto;
-   		background:url("../../bg.jpg");
+   		background-image:url("bg.jpg"),
 
         padding: 0;
     }
@@ -3300,7 +3300,7 @@ Smart Phone 5.5inch 480px
     #content2 {
         width: 100%;
         height: auto;
-    	background:url("../../bg.jpg");
+    	background-image:url("bg.jpg"),
         padding: 20px 0 26px 0;
     }
     /*news*/
@@ -3308,7 +3308,7 @@ Smart Phone 5.5inch 480px
     #content3 {
         width: 100%;
         height: auto;
-        background:url("../../bg.jpg");
+        background-image:url("bg.jpg"),
         padding: 20px 10px 15px 10px;
     }
     #news_wrap {
@@ -3364,7 +3364,7 @@ Smart Phone 5.5inch 480px
     #content4 {
         width: 100%;
         height: auto;
-        background: url("../../bg.jpg");
+       background-image:url("bg.jpg"),
         padding: 20px 10px 15px 10px;
     }
     #newface_wrap {
@@ -3399,7 +3399,7 @@ Smart Phone 5.5inch 480px
     #content5 {
         width: 100%;
         height: auto;
-    background: url("../../bg.jpg");
+   background-image:url("bg.jpg"),
         padding: 20px 10px 20px 10px;
     }
     #cast_wrap {
@@ -3542,7 +3542,7 @@ Smart Phone 4.4inch
         display: flex;
         align-items: center;
         justify-content: flex-start;
-        background:url("../../bg.jpg");
+        background-image:url("bg.jpg"),
     }
     .header_img {
         width: 35%;
@@ -3620,7 +3620,7 @@ Smart Phone 4.4inch
     #content1 {
         width: 100%;
         height: auto;
-   		background:url("../../bg.jpg");
+   		background-image:url("bg.jpg"),
 
         padding: 0;
     }
@@ -3629,7 +3629,7 @@ Smart Phone 4.4inch
     #content2 {
         width: 100%;
         height: auto;
-    	background:url("../../bg.jpg");
+    	background-image:url("bg.jpg"),
         padding: 20px 15px 26px 15px;
     }
     /*news*/
@@ -3637,7 +3637,7 @@ Smart Phone 4.4inch
     #content3 {
         width: 100%;
         height: auto;
-        background:url("../../bg.jpg");
+        background-image:url("bg.jpg"),
         padding: 20px 15px 15px 15px;
     }
     #news_wrap {
@@ -3691,7 +3691,7 @@ Smart Phone 4.4inch
     #content4 {
         width: 100%;
         height: auto;
-        background: url("../../bg.jpg");
+       background-image:url("bg.jpg"),
         padding: 20px 15px 15px 15px;
     }
     #newface_wrap {
@@ -3726,7 +3726,7 @@ Smart Phone 4.4inch
     #content5 {
         width: 100%;
         height: auto;
-    background: url("../../bg.jpg");
+   background-image:url("bg.jpg"),
         padding: 20px 15px 20px 15px;
     }
     #cast_wrap {
@@ -3799,7 +3799,7 @@ Smart Phone 4.4inch
     #content6 {
         width: 100%;
         height: auto;
-	    background: url("../../bg.jpg");
+	   background-image:url("bg.jpg"),
         padding: 20px 15px 50px 15px;
     }
     /*access*/
@@ -3807,7 +3807,7 @@ Smart Phone 4.4inch
     #content7 {
         width: 100%;
         height: auto;
-   		background:url("../../bg.jpg");
+   		background-image:url("bg.jpg"),
         padding: 20px 15px 40px 15px;
     }
     .text_table {
@@ -3913,7 +3913,7 @@ Smart Phone 4.4inch
         display: flex;
         align-items: center;
         justify-content: flex-start;
-        background:url("../../bg.jpg");
+        background-image:url("bg.jpg"),
     }
     .header_img {
         width: 35%;
@@ -3996,7 +3996,7 @@ Smart Phone 4.4inch
     #content1 {
         width: 100%;
         height: auto;
-   		background:url("../../bg.jpg");
+   		background-image:url("bg.jpg"),
 
         padding: 0;
     }
@@ -4005,7 +4005,7 @@ Smart Phone 4.4inch
     #content2 {
         width: 100%;
         height: auto;
-    	background:url("../../bg.jpg");
+    	background-image:url("bg.jpg"),
         padding: 20px 10px 26px 10px;
     }
     /*news*/
@@ -4013,7 +4013,7 @@ Smart Phone 4.4inch
     #content3 {
         width: 100%;
         height: auto;
-        background:url("../../bg.jpg");
+        background-image:url("bg.jpg"),
         padding: 20px 10px 15px 10px;
     }
     #news_wrap {
@@ -4066,7 +4066,7 @@ Smart Phone 4.4inch
     #content4 {
         width: 100%;
         height: auto;
-        background: url("../../bg.jpg");
+       background-image:url("bg.jpg"),
         padding: 20px 10px 15px 10px;
     }
     #newface_wrap {
@@ -4107,7 +4107,7 @@ Smart Phone 4.4inch
     #content5 {
         width: 100%;
         height: auto;
-    background: url("../../bg.jpg");
+   background-image:url("bg.jpg"),
         padding: 20px 10px 20px 10px;
     }
     #cast_wrap {
