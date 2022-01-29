@@ -1978,7 +1978,7 @@ Smart Phone 5.5inch
         display: block;
         width: 100%;
         height: auto;
-		background: url("../este/img/bg/bg_footer.png");
+		background: url("../bg.jpg");
         padding: 10px 0 20px 0;
     }
     .text_table_menu {
@@ -2685,7 +2685,7 @@ landscape
         display: block;
         width: 100%;
         height: auto;
-		background: url("../este/img/bg/bg_footer.png");
+		background: url("../bg.jpg");
         padding: 15px 0 10px 0;
     }
     .sp_logo {
