@@ -338,7 +338,7 @@ index
 #content7 {
     width: 100%;
     height: auto;
-   	background:url("../este/img/bg/bg07.png");
+   	background:url("../bg.jpg");
     padding: 20px 0 16px 0;
 }
 .text_table {
@@ -1161,7 +1161,7 @@ max 1024px ipad landscape
     #content7 {
         width: 100%;
         height: auto;
-   		background:url("../este/img/bg/bg07.png");
+   		background:url("../bg.jpg");
         padding: 20px 0 15px 0;
     }
     .text_table {
@@ -1557,7 +1557,7 @@ max 1024px
     #content7 {
         width: 100%;
         height: auto;
-   		background:url("../este/img/bg/bg07.png");
+   		background:url("../bg.jpg");
         padding: 20px 20px 15px 20px;
     }
     .text_table {
@@ -1969,7 +1969,7 @@ Smart Phone 5.5inch
     #content7 {
         width: 100%;
         height: auto;
-   		background:url("../este/img/bg/bg07.png");
+   		background:url("../bg.jpg");
         padding: 20px 10px 40px 10px;
     }
     /*footer menu*/
@@ -2676,7 +2676,7 @@ landscape
     #content7 {
         width: 100%;
         height: auto;
-   		background:url("../este/img/bg/bg07.png");
+   		background:url("../bg.jpg");
         padding: 20px 0 40px 0;
     }
     /*footer menu*/
@@ -3807,7 +3807,7 @@ Smart Phone 4.4inch
     #content7 {
         width: 100%;
         height: auto;
-   		background:url("../este/img/bg/bg07.png");
+   		background:url("../bg.jpg");
         padding: 20px 15px 40px 15px;
     }
     .text_table {
