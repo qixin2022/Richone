@@ -381,7 +381,7 @@ index
 #content9 {
     width: 100%;
     height: auto;
-	background: url("../este/img/bg/bg_footer.png");
+	background: url("../bg.jpg");
     padding: 20px 0 28px 0;
 }
 .footer nav {
@@ -1202,7 +1202,7 @@ max 1024px ipad landscape
     #content9 {
         width: 100%;
         height: auto;
-		background: url("../este/img/bg/bg_footer.png");
+		background: url("../bg.jpg");
         padding: 20px 0 10px 0;
     }
     .footer nav {
