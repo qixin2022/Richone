@@ -417,7 +417,7 @@ index
 #content10 {
     width: 100%;
     height: auto;
-	background: url("../este/img/bg/bg_footer.png");
+	background: url("../bg.jpg");
     padding: 0;
 }
 .pc_logo {
@@ -429,7 +429,7 @@ index
 #content11 {
     width: 100%;
     height: auto;
-	background: url("../este/img/bg/bg_footer.png");
+	background: url("../bg.jpg");
     padding: 16px 0 60px 0;
 }
 .content_linkbanner {
@@ -1226,7 +1226,7 @@ max 1024px ipad landscape
     #content10 {
         width: 100%;
         height: auto;
-		background: url("../este/img/bg/bg_footer.png");
+		background: url("../bg.jpg");
         padding: 0;
     }
     .pc_logo {
@@ -1238,7 +1238,7 @@ max 1024px ipad landscape
     #content11 {
         width: 100%;
         height: auto;
-		background: url("../este/img/bg/bg_footer.png");
+		background: url("../bg.jpg");
         padding: 15px 0 60px 0;
     }
     .content_linkbanner {
@@ -1596,7 +1596,7 @@ max 1024px
     #content10 {
         width: 100%;
         height: auto;
-		background: url("../este/img/bg/bg_footer.png");
+		background: url("../bg.jpg");
         padding: 20px 0;
     }
     .pc_logo {
@@ -2046,10 +2046,10 @@ Smart Phone 5.5inch
         display: none;
     }
     #content10 {
-		background: url("../este/img/bg/bg_footer.png");
+		background: url("../bg.jpg");
     }
     #content11 {
-		background: url("../este/img/bg/bg_footer.png");
+		background: url("../bg.jpg");
         padding: 10px 0 60px 0;
     }
     .pc_logo {
