@@ -474,20 +474,20 @@ img.emoji{
      <!--電話ボタン--> 
      <div id="footer_btn_sp" style="display: block;"> 
       <div class="tel_menu_sp"> 
-       <a href="tel:070-8376-5609"><img class="icon_btn" src="https://machida-relax.biz/wp-content/themes/este/img/call.png" />
-        <pc lass="icon_btn_tel">
-         070-8376-5609
-         <p></p>
+       <a href="tel:070-8376-5609">
+          <img class="icon_btn" src="https://machida-relax.biz/wp-content/themes/este/img/call.png" />
+        <p class="icon_btn_tel">070-8376-5609</p>
+         
          <span class="tel_on">電話予約 / 12:00-LAST</span>
-        </pc></a> 
+       </a> 
       </div> 
       <div class="menu_open_sp"> 
-       <a href="/access/"><img class="icon_btn" src="https://machida-relax.biz/wp-content/themes/este/img/map.png" />
-        <pc lass="icon_btn_map">
-         町田
-         <p></p>
+       <a href="/access/">
+         <img class="icon_btn" src="https://machida-relax.biz/wp-content/themes/este/img/map.png" />
+        <p class="icon_btn_map"> 町田 </p>
+        
          <span class="map_on">最寄駅 / 徒歩2分</span>
-        </pc></a> 
+      </a> 
       </div> 
       <br class="cb" /> 
      </div> 
@@ -498,40 +498,36 @@ img.emoji{
    <!--********************************************************************************************************************************************************--> 
    <!--スクリプト--> 
    <!--********************************************************************************************************************************************************--> 
-   <script type="text/javascript">
-                        $(document).ready(function(){
-                                $('.drawer').drawer();
-                        });
-                </script> 
-   <script type="text/javascript">
-constmql=window.matchMedia('(min-width: 769px)');
-consthandleMediaQuery=function(mql){
-  if(mql.matches){
+   <script type="text/javascript"> $( document ).ready( function () { $( '.drawer' ).drawer(); } ); </script> 
+<script type="text/javascript">
+ const mql = window.matchMedia('(min-width: 769px)');
+ const handleMediaQuery = function(mql) {
+  if (mql.matches) {
     // 769px以上の場合の処理
     console.log('769px以上');
     // それ以外の時の処理
     $("#footer_btn_sp").css({
         "display": "none"
     });
-  }else{
+  } else {
     // 769px未満の場合の処理
     console.log('769px未満');
-                        $(function(){vartopBtn=$('#footer_btn_sp,#tel_btn,#tel_btn02,#tel_btn03');
+			$( function () {    var topBtn = $('#footer_btn_sp,#tel_btn,#tel_btn02,#tel_btn03');    
     topBtn.hide();
     //スクロールが50に達したらボタン表示
-    $(window).scroll(function(){
-        if($(this).scrollTop()>50){
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 50) {
             topBtn.fadeIn();
-        }else{
+        } else {
             topBtn.fadeOut();
         }
     });
-                        });
+			} );
   }
 };
 mql.addListener(handleMediaQuery);
 handleMediaQuery(mql);
-                </script> 
+</script> 
    <!--********************************************************************************************************************************************************--> 
    <div class="drawer-overlay drawer-toggle"></div>   
   </scrip>
