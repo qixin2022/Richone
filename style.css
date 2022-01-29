@@ -108,7 +108,7 @@ index
     height: auto;
     margin: 24px auto 24px auto;
     font-size: 90%;
-    color: #FFFF;
+    color: #1C1C1C;
     text-align: center;
 }
 .content_title2 {
@@ -116,7 +116,7 @@ index
     height: auto;
     margin: 16px auto 16px auto;
     font-size: 90%;
-    color: #FFFF;
+    color: #1C1C1C;
     text-align: center;
 }
 .title {
@@ -196,7 +196,7 @@ index
     line-height: 1.2rem;
     font-size: 14px;
     margin-right: 1.5%;
-    color: #FFFF;
+    color: #1C1C1C;
 }
 .news_area:last-child {
     margin-right: 0;
